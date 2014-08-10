@@ -4,7 +4,7 @@ class CfgMagazines {
 	{
 		scope = 1;
 		ammo = "FakeAmmo";
-		stopThis = true;
+		stopThis = false;
 		value = 1;
 		displayName = "";
 		model = "";
@@ -38,9 +38,9 @@ class CfgMagazines {
 	class 30Rnd_556x45_G36: FakeMagazine {};
 	class 30Rnd_556x45_G36SD: FakeMagazine {};
 	class 200Rnd_556x45_M249: FakeMagazine {};
-	*/
+	
 	class 100Rnd_556x45_BetaCMag: FakeMagazine {};
-	/*
+	
 	class 5Rnd_762x51_M24: FakeMagazine {};
 	class 100Rnd_762x51_M240: FakeMagazine {};
 	class 10Rnd_762x54_SVD: FakeMagazine {};
@@ -74,7 +74,7 @@ class CfgMagazines {
 	class 1Rnd_SmokeYellow_GP25: FakeMagazine {};
 	class CA_LauncherMagazine: FakeMagazine {};
 	class M136: FakeMagazine {};
-	*/
+	
 	class Javelin: FakeMagazine {};
 	class AT13: FakeMagazine {};
 	class PG7V: FakeMagazine {};
@@ -187,7 +187,7 @@ class CfgMagazines {
 	class 6Rnd_Ch29: FakeMagazine {};
 	class 2Rnd_Maverick_A10: FakeMagazine {};
 	class 8Rnd_9M311: FakeMagazine {};
-	/*
+	
 	class TimeBomb: FakeMagazine {};
 	class Mine: FakeMagazine {};
 	class MineE: FakeMagazine {};
@@ -206,7 +206,7 @@ class CfgMagazines {
 	class Laserbatteries: FakeMagazine {};
 	class 20Rnd_762x51_DMR: FakeMagazine {};
 	class 5x_22_LR_17_HMR: FakeMagazine {};
-	*/
+	
 	class 1200Rnd_30x113mm_M789_HEDP: FakeMagazine {};
 	class 8Rnd_Sidewinder_AH64: FakeMagazine {};
 	class ARTY_30Rnd_105mmHE_M119: FakeMagazine {};
@@ -264,7 +264,7 @@ class CfgMagazines {
 	//class 17Rnd_9x19_glock17: FakeMagazine {};
 	class MAAWS_HEDP: FakeMagazine {};
 	class MAAWS_HEAT: FakeMagazine {};
-	/*
+	
 	class 20Rnd_762x51_B_SCAR: FakeMagazine {};
 	class 20Rnd_762x51_SB_SCAR: FakeMagazine {};
 	class 30Rnd_762x39_SA58: FakeMagazine {};
@@ -287,7 +287,7 @@ class CfgMagazines {
 	class 6Rnd_SmokeRed_M203: FakeMagazine {};
 	class 6Rnd_SmokeGreen_M203: FakeMagazine {};
 	class 6Rnd_SmokeYellow_M203: FakeMagazine {};
-	*/
+	
 	class 24Rnd_120mmHE_M120: FakeMagazine {};
 	class 24Rnd_120mmHE_M120_02: FakeMagazine {};
 	class 8Rnd_81mmHE_M252: FakeMagazine {};
@@ -313,10 +313,10 @@ class CfgMagazines {
 	class PMC_ied_v2: FakeMagazine {};
 	class PMC_ied_v3: FakeMagazine {};
 	class PMC_ied_v4: FakeMagazine {};
-	/*
+	
 	class 8Rnd_B_Saiga12_Pellets: FakeMagazine {};
 	class 8Rnd_B_Beneli_Pellets: FakeMagazine {};
-	*/
+	
 	class 20Rnd_B_AA12_Pellets: FakeMagazine {};
 	class 20Rnd_B_AA12_74Slug: FakeMagazine {};
 	class 20Rnd_B_AA12_HE: FakeMagazine {};
@@ -324,6 +324,6 @@ class CfgMagazines {
 	class 100Rnd_556x45_BetaCMag_airLock: FakeMagazine {};
 	class 14Rnd_57mm: FakeMagazine {};
 	class 6Rnd_HE_M203_heli: FakeMagazine {};
-	class 150Rnd_23mm_GSh23L: FakeMagazine {};
+	class 150Rnd_23mm_GSh23L: FakeMagazine {}; */
 };
 

@@ -160,8 +160,8 @@ class FSM
        "_agent = 		_this select 1;" \n
        "_secondHand = false;" \n
        "" \n
-       "if (count _this > 2) then {" \n
-       "	_secondHand = true;" \n
+       "_walkSpeed = (random 1) max 1;" \n
+       "" \n
        "	diag_log (""Second Hand Zombie Initialized: "" + str(_this));" \n
        "};"/*%FSM</STATEINIT""">*/;
       precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
@@ -221,7 +221,7 @@ class FSM
        "	if (_newDest distance _myDest > 0) then {" \n
        "		_myDest = _newDest;" \n
        "		_agent moveTo _myDest;" \n
-       "		_agent forceSpeed 2;" \n
+       "		_agent forceSpeed _walkSpeed;" \n
        "	};" \n
        "};" \n
        "" \n
@@ -310,7 +310,7 @@ class FSM
        "	if (_newDest distance _myDest > 0) then {" \n
        "		_myDest = _newDest;" \n
        "		_agent moveTo _myDest;" \n
-       "		_agent forceSpeed 2;" \n
+       "		_agent forceSpeed _walkSpeed;" \n
        "	};" \n
        "};" \n
        "" \n
@@ -476,7 +476,7 @@ class FSM
           to="Loiter";
           precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
           condition=/*%FSM<CONDITION""">*/"_hasMoved"/*%FSM</CONDITION""">*/;
-          action=/*%FSM<ACTION""">*/"_agent forceSpeed 2;"/*%FSM</ACTION""">*/;
+          action=/*%FSM<ACTION""">*/"_agent forceSpeed _walkSpeed;"/*%FSM</ACTION""">*/;
         };
         /*%FSM</LINK>*/
         /*%FSM<LINK "wait">*/
@@ -503,7 +503,7 @@ class FSM
        "_pHeight = (getPosATL _target) select 2;" \n
        "_delta = _pHeight - _entHeight;" \n
        "" \n
-       "_agent forceSpeed (_agent getVariable [""speedLimit"", 3]);" \n
+       "_agent forceSpeed _walkSpeed;" \n
        "" \n
        "_target = _agent call zombie_findTargetAgent;" \n
        "_isAlive = alive _agent;" \n

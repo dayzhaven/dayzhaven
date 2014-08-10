@@ -197,10 +197,10 @@ class CfgSurvival {
 	class Inventory {
 		class Default {
 			RandomMagazines = 3;
-			GuaranteedMagazines[] = {"ItemBandage","HandRoadFlare"};
+			GuaranteedMagazines[] = {"15Rnd_W1866_Slug","ItemBandage","HandRoadFlare","ItemCompass","ItemMap"};
 			RandomPossibilitieMagazines[] = {"ItemBandage","ItemPainkiller"};
-			backpackWeapon = "";
-			//backpack = "DZ_Patrol_Pack_EP1";
+			backpackWeapon = "Winchester1866";
+			backpack = "DZ_Patrol_Pack_EP1";
 		};
 	};
 	class Meat {

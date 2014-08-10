@@ -2,9 +2,9 @@ class CfgVehicles {
 	class All;
 	class Banned: All
 	{
-		stopThis = true;
+		stopThis = false;
 	};
-	class M2StaticMG: Banned {};
+	/* class M2StaticMG: Banned {};
 	class M119: Banned {};
 	class DSHKM_Ins: Banned {};
 	class DSHKM_CDF: Banned {};
@@ -960,5 +960,5 @@ class CfgVehicles {
 	class BAF_Merlin_HC3_D: Banned {};
 	class CH_47F_BAF: Banned {};
 	class BAF_FV510_D: Banned {};
-	class BAF_FV510_W: Banned {};
+	class BAF_FV510_W: Banned {}; */
 };

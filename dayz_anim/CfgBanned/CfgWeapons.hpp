@@ -10,7 +10,7 @@ class CfgWeapons {
 	class FakeWeapon: RifleCore
 	{
 		scope = 1;
-		stopThis = true;
+		stopThis = false;
 		type = 0;
 		cursor = "";
 		cursoraim = "";
@@ -50,7 +50,7 @@ class CfgWeapons {
 	//class MP5SD: FakeWeapon {};
 	//class MP5A5: FakeWeapon {};
 	//class PK: FakeWeapon {};
-	class Pecheneg: FakeWeapon {};
+	/* class Pecheneg: FakeWeapon {};
 	//class SVD: FakeWeapon {};
 	//class SVD_CAMO: FakeWeapon {};
 
@@ -359,6 +359,6 @@ class CfgWeapons {
 	class m8_holo_sd: FakeWeapon {};
 	class m8_tws_sd: FakeWeapon {};
 	class m8_tws: FakeWeapon {};
-	class GSh23L_L39: FakeWeapon {};
+	class GSh23L_L39: FakeWeapon {}; */
 	
 };

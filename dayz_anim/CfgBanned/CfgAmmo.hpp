@@ -40,7 +40,7 @@ class CfgAmmo {
 	//class B_127x99_Ball_noTracer: FakeAmmo {};
 	//class B_127x107_Ball: FakeAmmo {};
 	//class B_127x108_Ball: FakeAmmo {};
-	class B_127x108_APHE: FakeAmmo {};
+	/* class B_127x108_APHE: FakeAmmo {};
 	class B_145x115_AP: FakeAmmo {};
 	class B_20mm_AP: FakeAmmo {};
 	class B_20mm_AA: FakeAmmo {};
@@ -116,7 +116,7 @@ class CfgAmmo {
 	class Bo_GBU12_LGB_F35: FakeAmmo {};
 	class Bo_FAB_250: FakeAmmo {};
 	class Bo_Mk82: FakeAmmo {};
-	/*
+	
 	class Grenade: FakeAmmo {};
 	class GrenadeHand: FakeAmmo {};
 	class GrenadeHandTimedWest: FakeAmmo {};
@@ -135,7 +135,7 @@ class CfgAmmo {
 	class SmokeShellOrange: FakeAmmo {};
 	class SmokeShellVehicle: FakeAmmo {};
 	class FlareCountermeasure: FakeAmmo {};
-	*/
+	
 	//class TimeBomb: FakeAmmo {};
 	//class PipeBomb: FakeAmmo {};
 	//class Mine: FakeAmmo {};
@@ -241,5 +241,5 @@ class CfgAmmo {
 	//class B_12Gauge_Pellets: FakeAmmo {};
 	class G_30mm_HE_heli: FakeAmmo {};
 	class B_19mm_HE: FakeAmmo {};
-	//class B_556x45_Ball_airLock: FakeAmmo {};
+	//class B_556x45_Ball_airLock: FakeAmmo {}; */
 };
