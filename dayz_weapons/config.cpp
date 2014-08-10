@@ -469,6 +469,11 @@ class cfgWeapons {
 	class m107_TWS_EP1_DZ : m107_TWS_EP1 {
 		type = "1";
 	};
+	class M249_TWS_EP1;
+
+	class M249_TWS_EP1_DZ : M249_TWS_EP1 {
+		type = "1";
+	};
 };
 
 class cfgMagazines {
