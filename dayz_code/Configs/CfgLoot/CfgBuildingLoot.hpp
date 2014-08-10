@@ -44,6 +44,7 @@ class CfgBuildingLoot {
 		lootChance = 0.6;
 		lootPos[] = {};
 		lootType[] = {
+			{"DZ_Czech_Vest_Pouch","object",0.04}
 		//one spawn
 		/*	{"ItemMatchbox","weapon",0.01},
 			{"ItemKnife","weapon",0.01},
@@ -94,6 +95,8 @@ class CfgBuildingLoot {
 		lootChance = 0.6;
 		lootPos[] = {};
 		lootType[] = {
+			{"DZ_Assault_Pack_EP1","object",0.1},
+			{"","food",1.0}
 		//one spawn
 		/*	{"FoodCakeCremeCakeClean","magazine",0.01},
 			{"ItemSodaMtngreen","magazine",0.01},
@@ -130,6 +133,7 @@ class CfgBuildingLoot {
 		lootChance = 0.6;
 		lootPos[] = {};
 		lootType[] = {
+			{"DZ_British_ACU","object",0.04},
 		//one spawn
 		/*	{"ItemKnife","weapon",0.03},
 			{"ItemToolbox","weapon",0.06},
@@ -170,6 +174,7 @@ class CfgBuildingLoot {
 		lootChance = 0.6;
 		lootPos[] = {};
 		lootType[] = {
+			{"DZ_CivilBackpack_EP1","object",0.04}
 		//one spawn
 		//tools
 		/*	{"ItemMatchbox","weapon",0.05},
@@ -207,6 +212,8 @@ class CfgBuildingLoot {
 		zombieChance = 0.5;
 		zombieClass[] = {"zZombie_Base","zZombie_Base","z_teacher","z_suit1","z_suit2","z_new_villager2","z_new_villager3","z_new_villager4"};
 		lootType[] = {
+			{"DZ_Assault_Pack_EP1","object",0.1},
+			{"","food",1.0}
 		//one spawn
 			// {"ItemWatch","generic",0.05},
 			// {"ItemCompass","generic",0.01},
@@ -246,53 +253,7 @@ class CfgBuildingLoot {
 			// {"HandChemBlue","magazine",0.04},
 			// {"HandChemRed","magazine",0.04},
 			// {"HandRoadFlare","magazine",0.05},
-		//drinks
-			// {"ItemWaterbottleUnfilled","magazine",0.01},
-			// {"ItemWaterbottle","magazine",0.01},
-			// {"ItemWaterbottleDmg","magazine",0.03},
-			// {"ItemSodaCoke","magazine",0.05},
-			// {"ItemSodaPepsi","magazine",0.05},
-			// {"ItemSodaMtngreen","magazine",0.01},
-			// {"ItemSodaR4z0r","magazine",0.01},
-			// {"ItemSodaClays","magazine",0.01},
-			// {"ItemSodaSmasht","magazine",0.01},
-			// {"ItemSodaDrwaste","magazine",0.01},
-			// {"ItemSodaLemonade","magazine",0.01},
-			// {"ItemSodaLvg","magazine",0.01},
-			// {"ItemSodaMzly","magazine",0.01},
-			// {"ItemSodaRabbit","magazine",0.01},
-		//food
-			// {"FoodNutmix","magazine",0.03},
-			// {"FoodCanBakedBeans","magazine",0.05},
-			// {"FoodCanSardines","magazine",0.05},
-			// {"FoodCanFrankBeans","magazine",0.05},
-			// {"FoodCanPasta","magazine",0.05},
-			// {"FoodCanBadguy","magazine",0.01},
-			// {"FoodCanBoneboy","magazine",0.01},
-			// {"FoodCanCorn","magazine",0.01},
-			// {"FoodCanCurgon","magazine",0.01},
-			// {"FoodCanDemon","magazine",0.01},
-			// {"FoodCanFraggleos","magazine",0.01},
-			// {"FoodCanHerpy","magazine",0.01},
-			// {"FoodCanDerpy","magazine",0.01},
-			// {"FoodCanOrlok","magazine",0.01},
-			// {"FoodCanPowell","magazine",0.01},
-			// {"FoodCanTylers","magazine",0.01},
-			// {"FoodCanUnlabeled","magazine",0.04},
-			// {"FoodPistachio","magazine",0.03},
-			// {"FoodNutmix","magazine",0.04},
-			// {"FoodChipsSulahoops","magazine",0.01},
-			// {"FoodChipsMysticales","magazine",0.01},
-			// {"FoodCandyAnders","magazine",0.01},
-			// {"FoodCandyLegacys","magazine",0.01},
-			// {"FoodCandyMintception","magazine",0.01},
-			// {"FoodCanRusUnlabeled","magazine",0.05},
-			// {"FoodCanRusStew","magazine",0.05},
-			// {"FoodCanRusPork","magazine",0.05},
-			// {"FoodCanRusPeas","magazine",0.05},
-			// {"FoodCanRusMilk","magazine",0.04},
-			// {"FoodCanRusCorn","magazine",0.05},
-			// {"FoodCakeCremeCakeClean","magazine",0.03},
+
 		//special
 			// {"equip_nails","magazine",0.06},
 		//multiple spawns	
@@ -523,6 +484,7 @@ class CfgBuildingLoot {
 		lootChance = 0.6;
 		lootPos[] = {};
 		lootType[] = {
+			{"DZ_ALICE_Pack_EP1","object",0.05},
 			{"MedBox2","object",0.03},
 			{"MedBox1","object",0.02},
 			{"ItemBandage","magazine",0.06},
@@ -588,7 +550,7 @@ class CfgBuildingLoot {
 			{"SVD","weapon",0.4},
 			{"M4SPR","weapon",0.4},
 			{"M9SD","weapon",0.4},
-		// 0.1 rate (ultra rare) >>> 8 items
+		// 0.1 rate (ultra rare) >>> 9 items
 			{"SCAR_L_CQC_CCO_SD","weapon",0.1},
 			{"AKS_74_GOSHAWK","weapon",0.1},
 			{"M4A1_HWS_GL_SD_camo","weapon",0.1},
@@ -597,6 +559,7 @@ class CfgBuildingLoot {
 			{"VSS_Vintorez","weapon",0.1},
 			{"UZI_EP1","weapon",0.1},
 			{"M249_DZ","weapon",0.1},
+			{"DZ_Backpack_EP1","object",0.1},
 		// 0.08 rate (legendary) >>> 7 items
 			{"SCAR_L_STD_EGLM_TWS","weapon",0.08},
 			{"BAF_AS50_scoped","weapon",0.08},
@@ -611,7 +574,7 @@ class CfgBuildingLoot {
 			{"M32_EP1","weapon",0.05},
 			{"M136","weapon",0.05},
 			{"PipeBomb","weapon",0.05},
-			{"M249_TWS_EP1_DZ","weapon",0.05}  // change to M249_TWS_DZ
+			{"M249_TWS_EP1_DZ","weapon",0.05}
 		};
 	};
 	class MilitarySpecial: Default {
@@ -655,7 +618,7 @@ class CfgBuildingLoot {
 			{"SVD","weapon",0.4},
 			{"M4SPR","weapon",0.4},
 			{"M9SD","weapon",0.4},
-		// 0.1 rate (ultra rare) >>> 8 items
+		// 0.1 rate (ultra rare) >>> 9 items
 			{"SCAR_L_CQC_CCO_SD","weapon",0.1},
 			{"AKS_74_GOSHAWK","weapon",0.1},
 			{"M4A1_HWS_GL_SD_camo","weapon",0.1},
@@ -664,6 +627,7 @@ class CfgBuildingLoot {
 			{"VSS_Vintorez","weapon",0.1},
 			{"UZI_EP1","weapon",0.1},
 			{"M249_DZ","weapon",0.1},
+			{"DZ_Backpack_EP1","object",0.1},
 		// 0.08 rate (legendary) >>> 7 items
 			{"SCAR_L_STD_EGLM_TWS","weapon",0.08},
 			{"BAF_AS50_scoped","weapon",0.08},
@@ -678,7 +642,7 @@ class CfgBuildingLoot {
 			{"M32_EP1","weapon",0.05},
 			{"M136","weapon",0.05},
 			{"PipeBomb","weapon",0.05},
-			{"M249_TWS_EP1_DZ","weapon",0.05}  // change to M249_TWS_DZ
+			{"M249_TWS_EP1_DZ","weapon",0.05}
 		};
 	};
 	class Hunting: Default {
@@ -689,6 +653,7 @@ class CfgBuildingLoot {
 		lootChance = 0.6;
 		lootPos[] = {};
 		lootType[] = {
+			{"DZ_TK_Assault_Pack_EP1","object",0.1}
 		//one spawn
 		//tools
 		/*	{"ItemMap","weapon",0.06},
