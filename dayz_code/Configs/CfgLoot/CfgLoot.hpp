@@ -116,7 +116,7 @@ class CfgLoot {
 		{"FoodCanRusPeas","magazine",0.2},
 		{"FoodCanRusMilk","magazine",0.2},
 		{"FoodCanRusCorn","magazine",0.2},
-		{"FoodCakeCremeCakeClean","magazine",0.2},
+		{"FoodCakeCremeCakeClean","magazine",0.2}
 	};
 	generic[] = {
 		{"ItemBandage",0.03},
