@@ -119,22 +119,6 @@ class Land_SS_hangar: Military {
 	lootPos[] = {{11.73,-17.17,-5.87},{-11.72,-18.95,-5.87},{-14.25,23.04,-5.87},{8.38,-5.33,-5.87},{-6,5.89,-5.87},{10.18,19.62,-5.87},{-6.43,-7.66,-5.87}};
 	//Origanl lootPos[] = {{11.7344,-17.165,-5.87253},{-11.7158,-18.9541,-5.87253},{-14.2461,23.0439,-5.87253}};
 	zedPos[] = {{11.7344,-17.165,-5.87253},{-11.7158,-18.9541,-5.87253},{-14.2461,23.0439,-5.87253}};
-	lootType[] = {
-		//one spawn
-		//tools
-		{"ItemEtool","weapon",0.02},
-		//weapons
-		//special
-		{"WeaponHolder_PartVRotor", "object",0.02}, 
-		//mags special
-		{"ItemSandbag","magazine",0.02},
-		{"ItemWire","magazine",0.02},
-		{"ItemTankTrap","magazine",0.02},
-		//bags
-		//multiple spawns
-		{"","Trash",0.30},
-		{"","generic",0.60}
-	};
 };
 class Land_A_Pub_01: Residential {
 	zombieChance = 0.2;

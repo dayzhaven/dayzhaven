@@ -611,7 +611,7 @@ class CfgBuildingLoot {
 			{"M32_EP1","weapon",0.05},
 			{"M136","weapon",0.05},
 			{"PipeBomb","weapon",0.05},
-			{"M249_TWS_EP1","weapon",0.05}  // change to M249_TWS_DZ
+			{"M249_TWS_EP1_DZ","weapon",0.05}  // change to M249_TWS_DZ
 		};
 	};
 	class MilitarySpecial: Default {
@@ -678,7 +678,7 @@ class CfgBuildingLoot {
 			{"M32_EP1","weapon",0.05},
 			{"M136","weapon",0.05},
 			{"PipeBomb","weapon",0.05},
-			{"M249_TWS_EP1","weapon",0.05}  // change to M249_TWS_DZ
+			{"M249_TWS_EP1_DZ","weapon",0.05}  // change to M249_TWS_DZ
 		};
 	};
 	class Hunting: Default {
