@@ -555,46 +555,63 @@ class CfgBuildingLoot {
 		lootChance = 0.6;
 		lootPos[] = {};
 		lootType[] = {
-		//one spawn
-		//tools
-			{"Binocular","weapon",0.05},
-			{"ItemFlashlightRed","generic",0.06},
-			{"ItemKnife","generic",0.06},
-			{"ItemGPS","weapon",0.01},
-			{"ItemMap","generic",0.03},
-			{"ItemEtool","weapon",0.03},
-		//weapons
-			{"Colt1911","weapon",0.05},
-			{"M9","weapon",0.05},
-			{"M16A2","weapon",0.05},
-			{"M16A2GL","weapon",0.02},
-			{"M9SD","weapon",0.01},
-			{"MakarovSD","weapon",0.01},
-			{"AK_74","weapon",0.06},
-			{"M4A1_Aim","weapon",0.03},
-			{"AKS_74_kobra","weapon",0.06},
-			{"AKS_74_U","weapon",0.04},
-			{"AK_47_M","weapon",0.04},
-			{"M1014","weapon",0.06},
-			{"M4A1","weapon",0.04},
-			//{"M14_EP1","weapon",0.03},
-			{"UZI_EP1","weapon",0.05},
-			{"Remington870_lamp","weapon",0.05},
-			{"glock17_EP1","weapon",0.08},
-			{"MP5A5","weapon",0.04},
-			{"MP5SD","weapon",0.01},
-			{"M4A3_CCO_EP1","weapon",0.02},
-			{"Skin_Soldier1_DZ","magazine",0.02},
-		//special
-		//mags special
-			{"ItemSandbag","magazine",0.04},
-		//bags
-			{"DZ_British_ACU","object",0.02}, // 18
-			{"DZ_CivilBackpack_EP1","object",0.01}, // 24			
-		//multiple spawns
-			{"","military",0.02},
-			{"","Trash",0.01},
-			{"","ammo",0.06}
+		// 1.0 rate (common) >>> 11 items
+			{"AKS_74","weapon",1.0},
+			{"Sa58V_EP1","weapon",1.0},
+			{"M4A1","weapon",1.0},
+			{"M16A2","weapon",1.0},
+			{"FN_FAL","weapon",1.0},
+			{"Bizon","weapon",1.0},
+			{"MP5A5","weapon",1.0},
+			{"M1014","weapon",1.0},
+			{"Saiga12K","weapon",1.0},
+			{"M9","weapon",1.0},
+			{"","military",1.0},
+		// 0.7 rate (uncommon) >>> 10 items
+			{"SCAR_L_CQC","weapon",0.7},
+			{"AKS_74_kobra","weapon",0.7},
+			{"AKS_74_pso","weapon",0.7},
+			{"AK_107_pso","weapon",0.7},
+			{"Sa58V_RCO_EP1","weapon",0.7},
+			{"M4A1_Aim_camo","weapon",0.7},
+			{"M16A4","weapon",0.7},
+			{"M4A3_CCO_EP1","weapon",0.7},
+			{"G36a","weapon",0.7},
+			{"glock17_EP1","weapon",0.7},
+		// 0.4 rate (rare) >>> 9 items
+			{"SCAR_H_CQC_CCO","weapon",0.4},
+			{"AK_107_GL_pso","weapon",0.4},
+			{"M4A1_HWS_GL_camo","weapon",0.4},
+			{"M16A4_ACG_GL","weapon",0.4},
+			{"M4A3_RCO_GL_EP1","weapon",0.4},
+			{"M24","weapon",0.4},
+			{"SVD","weapon",0.4},
+			{"M4SPR","weapon",0.4},
+			{"M9SD","weapon",0.4},
+		// 0.1 rate (ultra rare) >>> 8 items
+			{"SCAR_L_CQC_CCO_SD","weapon",0.1},
+			{"AKS_74_GOSHAWK","weapon",0.1},
+			{"M4A1_HWS_GL_SD_camo","weapon",0.1},
+			{"M40A3","weapon",0.1},
+			{"SVD_CAMO","weapon",0.1},
+			{"VSS_Vintorez","weapon",0.1},
+			{"UZI_EP1","weapon",0.1},
+			{"M249_DZ","weapon",0.1},
+		// 0.08 rate (legendary) >>> 7 items
+			{"SCAR_L_STD_EGLM_TWS","weapon",0.08},
+			{"BAF_AS50_scoped","weapon",0.08},
+			{"KSVK","weapon",0.08},
+			{"UZI_SD_EP1","weapon",0.08},
+			{"M240_DZ","weapon",0.08},
+			{"Skin_Camo1_DZ","magazine",0.08},
+			{"Skin_Sniper1_DZ","magazine",0.08},
+		// 0.05 rate (holy shit) >>> 6 items
+			{"SCAR_H_STD_TWS_SD","weapon",0.05},
+			{"BAF_AS50_TWS","weapon",0.05},
+			{"M32_EP1","weapon",0.05},
+			{"M136","weapon",0.05},
+			{"PipeBomb","weapon",0.05},
+			{"M249_TWS_EP1","weapon",0.05}  // change to M249_TWS_DZ
 		};
 	};
 	class MilitarySpecial: Default {
@@ -605,61 +622,63 @@ class CfgBuildingLoot {
 		lootChance = 0.6;
 		lootPos[] = {};
 		lootType[] = {
-		//1.0 rate (common)
+		// 1.0 rate (common) >>> 11 items
+			{"AKS_74","weapon",1.0},
+			{"Sa58V_EP1","weapon",1.0},
 			{"M4A1","weapon",1.0},
 			{"M16A2","weapon",1.0},
-			{"AK_74","weapon",1.0},
+			{"FN_FAL","weapon",1.0},
+			{"Bizon","weapon",1.0},
+			{"MP5A5","weapon",1.0},
 			{"M1014","weapon",1.0},
-		//0.7 rate (uncommon)
-			{"Sa58V_CCO_EP1","weapon",0.7},
-			{"Sa58V_RCO_EP1","weapon",0.7},
-			{"glock17_EP1","weapon",0.7},
-			{"M16A2GL","weapon",0.7},
+			{"Saiga12K","weapon",1.0},
+			{"M9","weapon",1.0},
+			{"","military",1.0},
+		// 0.7 rate (uncommon) >>> 10 items
+			{"SCAR_L_CQC","weapon",0.7},
 			{"AKS_74_kobra","weapon",0.7},
-			{"ItemFlashlightRed","generic",0.7},
-		//0.4 rate (rare)
-			{"M16A4_ACG","weapon",0.4},
-			{"UZI_EP1","weapon",0.4},
-			{"M4A1_AIM_SD_camo","weapon",0.4},
+			{"AKS_74_pso","weapon",0.7},
+			{"AK_107_pso","weapon",0.7},
+			{"Sa58V_RCO_EP1","weapon",0.7},
+			{"M4A1_Aim_camo","weapon",0.7},
+			{"M16A4","weapon",0.7},
+			{"M4A3_CCO_EP1","weapon",0.7},
+			{"G36a","weapon",0.7},
+			{"glock17_EP1","weapon",0.7},
+		// 0.4 rate (rare) >>> 9 items
+			{"SCAR_H_CQC_CCO","weapon",0.4},
+			{"AK_107_GL_pso","weapon",0.4},
 			{"M4A1_HWS_GL_camo","weapon",0.4},
+			{"M16A4_ACG_GL","weapon",0.4},
+			{"M4A3_RCO_GL_EP1","weapon",0.4},
+			{"M24","weapon",0.4},
+			{"SVD","weapon",0.4},
+			{"M4SPR","weapon",0.4},
 			{"M9SD","weapon",0.4},
-		//0.1 rate (ultra rare)
-			{"DZ_CivilBackpack_EP1","object",0.1},
-			{"DZ_Backpack_EP1","object",0.1},
-			{"AmmoBoxSmall_556","object",0.01},
-			{"AmmoBoxSmall_762","object",0.1},
-			{"WeaponHolder_ItemCamoNet","object",0.1},
-			{"M240_DZ","weapon",0.1},
+		// 0.1 rate (ultra rare) >>> 8 items
+			{"SCAR_L_CQC_CCO_SD","weapon",0.1},
+			{"AKS_74_GOSHAWK","weapon",0.1},
+			{"M4A1_HWS_GL_SD_camo","weapon",0.1},
+			{"M40A3","weapon",0.1},
+			{"SVD_CAMO","weapon",0.1},
+			{"VSS_Vintorez","weapon",0.1},
+			{"UZI_EP1","weapon",0.1},
 			{"M249_DZ","weapon",0.1},
-		//0.08 rate (legendary)
+		// 0.08 rate (legendary) >>> 7 items
+			{"SCAR_L_STD_EGLM_TWS","weapon",0.08},
+			{"BAF_AS50_scoped","weapon",0.08},
+			{"KSVK","weapon",0.08},
+			{"UZI_SD_EP1","weapon",0.08},
+			{"M240_DZ","weapon",0.08},
 			{"Skin_Camo1_DZ","magazine",0.08},
 			{"Skin_Sniper1_DZ","magazine",0.08},
-			{"Binocular_Vector","generic",0.08},
-		//0.05 rate (holy shit)
-			{"PipeBomb","magazine",0.05}
-			// {"Binocular","weapon",0.03},
-			// {"ItemKnife","generic",0.05},
-			// {"ItemGPS","weapon",0.01},
-			// {"ItemMap","generic",0.03},
-			// {"MakarovSD","weapon",0.02},
-			// {"M4A1_Aim","weapon",0.02},
-			// {"AKS_74_U","weapon",0.05},
-			// {"AK_47_M","weapon",0.05},
-			// {"M24","weapon",0.01},
-			// {"SVD_CAMO_DZ","weapon",0.01},
-			// {"SVD_DZ","weapon",0.02},
-			// {"DMR_DZ","weapon",0.02},
-			// {"M14_EP1","weapon",0.03},
-			// {"Remington870_lamp","weapon",0.06},
-			// {"Mk_48_DZ","weapon",0.01},
-			// {"M4A3_CCO_EP1","weapon",0.03},
-			//{"G36_C_SD_camo","weapon",0.01},
-			// {"M40A3","weapon",0.02},
-			// {"Sa58P_EP1","weapon",0.02},
-			// {"Sa58V_EP1","weapon",0.02},
-			// {"100Rnd_762x54_PK","magazine",0.01},
-			// {"","military",0.09},
-			// {"","Trash",0.01}
+		// 0.05 rate (holy shit) >>> 6 items
+			{"SCAR_H_STD_TWS_SD","weapon",0.05},
+			{"BAF_AS50_TWS","weapon",0.05},
+			{"M32_EP1","weapon",0.05},
+			{"M136","weapon",0.05},
+			{"PipeBomb","weapon",0.05},
+			{"M249_TWS_EP1","weapon",0.05}  // change to M249_TWS_DZ
 		};
 	};
 	class Hunting: Default {
