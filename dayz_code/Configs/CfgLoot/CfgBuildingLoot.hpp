@@ -133,7 +133,7 @@ class CfgBuildingLoot {
 		lootChance = 0.6;
 		lootPos[] = {};
 		lootType[] = {
-			{"DZ_British_ACU","object",0.04},
+			{"DZ_British_ACU","object",0.04}
 		//one spawn
 		/*	{"ItemKnife","weapon",0.03},
 			{"ItemToolbox","weapon",0.06},
