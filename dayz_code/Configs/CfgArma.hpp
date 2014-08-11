@@ -196,9 +196,10 @@ class CfgMissions
 class CfgSurvival {
 	class Inventory {
 		class Default {
-			RandomMagazines = 3;
-			GuaranteedMagazines[] = {"15Rnd_W1866_Slug","ItemBandage","HandRoadFlare","ItemCompass","ItemMap"};
+			RandomMagazines = 1;
+			GuaranteedMagazines[] = {"15Rnd_W1866_Slug","ItemBandage","HandRoadFlare"};
 			RandomPossibilitieMagazines[] = {"ItemBandage","ItemPainkiller"};
+			weapons[] = {"ItemCompass","ItemMap","ItemFlashlight"};
 			backpackWeapon = "Winchester1866";
 			backpack = "DZ_Patrol_Pack_EP1";
 		};

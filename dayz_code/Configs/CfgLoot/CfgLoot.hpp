@@ -12,10 +12,12 @@ class CfgLoot {
 		{"20Rnd_762x51_FNFAL",1.0},
 		{"64Rnd_9x19_SD_Bizon",1.0},
 		{"30Rnd_9x19_MP5",1.0},
+		{"64Rnd_9x19_Bizon",1.0},
+		{"30Rnd_9x19_MP5SD",1.0},
 		{"8Rnd_B_Beneli_74Slug",1.0},
 		{"8Rnd_B_Saiga12_74Slug",1.0},
 		{"15Rnd_9x19_M9",1.0},
-		// 0.4 rate (common) >>> 11 items
+		// 0.4 rate (common) >>> 12 items
 		{"17Rnd_9x19_glock17",0.4},
 		{"30Rnd_556x45_StanagSD",0.4},
 		{"5Rnd_762x51_M24",0.4},
@@ -25,6 +27,8 @@ class CfgLoot {
 		{"FlareWhite_M203",0.4},
 		{"1Rnd_Smoke_M203",0.4},
 		{"SmokeShell",0.4},
+		{"20Rnd_B_765x17_Ball",0.4},
+		{"20Rnd_762x51_DMR",0.4},
 		// 0.1 rate (common) >>> 11 items
 		{"10Rnd_9x39_SP5_VSS",0.1},
 		{"30Rnd_9x19_UZI",0.1},
@@ -154,10 +158,12 @@ class CfgLoot {
 		{"20Rnd_762x51_FNFAL",1.0},
 		{"64Rnd_9x19_SD_Bizon",1.0},
 		{"30Rnd_9x19_MP5",1.0},
+		{"64Rnd_9x19_Bizon",1.0},
+		{"30Rnd_9x19_MP5SD",1.0},
 		{"8Rnd_B_Beneli_74Slug",1.0},
 		{"8Rnd_B_Saiga12_74Slug",1.0},
 		{"15Rnd_9x19_M9",1.0},
-		// 0.4 rate (common) >>> 11 items
+		// 0.4 rate (common) >>> 12 items
 		{"17Rnd_9x19_glock17",0.4},
 		{"30Rnd_556x45_StanagSD",0.4},
 		{"5Rnd_762x51_M24",0.4},
@@ -167,6 +173,8 @@ class CfgLoot {
 		{"FlareWhite_M203",0.4},
 		{"1Rnd_Smoke_M203",0.4},
 		{"SmokeShell",0.4},
+		{"20Rnd_B_765x17_Ball",0.4},
+		{"20Rnd_762x51_DMR",0.4},
 		// 0.1 rate (common) >>> 11 items
 		{"10Rnd_9x39_SP5_VSS",0.1},
 		{"30Rnd_9x19_UZI",0.1},

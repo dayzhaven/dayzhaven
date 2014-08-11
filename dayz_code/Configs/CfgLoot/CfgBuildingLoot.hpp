@@ -50,7 +50,7 @@ class CfgBuildingLoot {
 		zombieChance = 0.5;
 		maxRoaming = 2;
 		zombieClass[] = {"zZombie_Base","z_hunter","z_teacher","z_villager1","z_villager2","z_villager3","z_new_villager2","z_new_villager3","z_new_villager4"};
-		lootChance = 0.6;
+		lootChance = 0.8;
 		lootPos[] = {};
 		lootType[] = {
 			{"DZ_Assault_Pack_EP1","object",0.1},
@@ -62,48 +62,49 @@ class CfgBuildingLoot {
 			{"equip_pvc_box","magazine",0.1},
 			{"Makarov","weapon",0.1},
 			{"MeleeBaseBallBat","weapon",0.1},
-			{"MR43","weapon",0.1}
+			{"MR43","weapon",0.1},
+			{"ItemGPS","weapon",0.1}
 		};
 	};
 	class Industrial: Default { //254
 		zombieChance = 0.8;
 		zombieClass[] = {"z_worker1","z_worker2","z_worker3","z_new_worker2","z_new_worker3","z_new_worker4"};
 		maxRoaming = 2;
-		lootChance = 0.6;
+		lootChance = 0.8;
 		lootPos[] = {};
 		lootType[] = {
-			{"DZ_British_ACU","object",0.1},
-			{"Colt1911","weapon",0.1},
-			{"LeeEnfield","weapon",0.1},
-			{"","generic",0.7},
+			{"DZ_British_ACU","object",0.05},
+			{"Colt1911","weapon",0.05},
+			{"LeeEnfield","weapon",0.05},
+			{"","generic",0.1},
 			{"ItemToolbox","weapon",0.1},
-			{"WeaponHolder_ItemCrowbar","object",0.08},
-			{"WeaponHolder_PartGeneric","object",0.05},
-			{"WeaponHolder_PartWheel","object",0.05},
-			{"WeaponHolder_PartFueltank","object",0.05},
-			{"WeaponHolder_PartEngine","object",0.05},
-			{"WeaponHolder_PartGlass","object",0.05},
+			{"WeaponHolder_ItemCrowbar","object",0.05},
+			{"WeaponHolder_PartGeneric","object",0.08},
+			{"WeaponHolder_PartWheel","object",0.08},
+			{"WeaponHolder_PartFueltank","object",0.08},
+			{"WeaponHolder_PartEngine","object",0.08},
+			{"WeaponHolder_PartGlass","object",0.08},
 			{"WeaponHolder_ItemJerrycan","object",0.05},
 			{"WeaponHolder_ItemFuelcan","object",0.01},
 			{"ItemWire","magazine",0.05},
 			{"ItemTankTrap","magazine",0.05},
-			{"","ammo",1.0},
+			{"","ammo",0.1},
 			{"equip_brick","magazine",0.01},
-			{"equip_duct_tape","magazine",0.05},
-			{"equip_hose","magazine",0.05},
-			{"equip_nails","magazine",0.05},
-			{"equip_rag","magazine",0.05},
-			{"equip_scrapelectronics","magazine",0.05}
+			{"equip_duct_tape","magazine",0.01},
+			{"equip_hose","magazine",0.01},
+			{"equip_nails","magazine",0.01},
+			{"equip_rag","magazine",0.01},
+			{"equip_scrapelectronics","magazine",0.01}
 		};
 	};
 	class Farm: Default {
 		zombieChance = 0.6;
 		maxRoaming = 3;
 		zombieClass[] = {"zZombie_Base","z_hunter","z_hunter","z_hunter","z_villager1","z_villager2","z_villager3","z_new_villager2","z_new_villager3","z_new_villager4"};
-		lootChance = 0.6;
+		lootChance = 0.8;
 		lootPos[] = {};
 		lootType[] = {
-			{"DZ_CivilBackpack_EP1","object",0.1},
+			{"DZ_CivilBackpack_EP1","object",0.08},
 			{"revolver_EP1","weapon",0.1},
 			{"Winchester1866","weapon",0.1},
 			{"WeaponHolder_ItemHatchet","object",0.1},
@@ -237,22 +238,46 @@ class CfgBuildingLoot {
 	};
 	class HeliCrashWEST: Default {
 		zombieChance = 0.5;
-		maxRoaming = 8;
+		maxRoaming = 3;
 		zombieClass[] = {"z_soldier_pilot"};
 		lootChance = 0.6;
 		lootPos[] = {};
 		lootType[] = {
-
+			{"Sa61_EP1","weapon",0.08},
+			{"G36_C_SD_camo","weapon",0.02},
+			{"bizon_silenced","weapon",0.3},
+			{"MP5SD","weapon",0.3},
+			{"M14_EP1","weapon",0.3},
+			{"FN_FAL_ANPVS4","weapon",0.08},
+			{"Mk_48_DZ","weapon",0.02},
+			{"BAF_L85A2_RIS_CWS","weapon",0.005},
+			{"DMR","weapon",0.03},
+			{"", "military",0.3},
+			{"NVGoggles","weapon",0.005},
+			{"AmmoBoxSmall_556","object",0.08},
+			{"AmmoBoxSmall_762","object",0.08}
 		};
 	};
 	class HeliCrashEAST: Default {
 		zombieChance = 0.5;
-		maxRoaming = 8;
+		maxRoaming = 3;
 		zombieClass[] = {"z_soldier_pilot"};
 		lootChance = 0.6;
 		lootPos[] = {};
 		lootType[] = {
-		
+			{"Sa61_EP1","weapon",0.08},
+			{"G36_C_SD_camo","weapon",0.02},
+			{"bizon_silenced","weapon",0.3},
+			{"MP5SD","weapon",0.3},
+			{"M14_EP1","weapon",0.3},
+			{"FN_FAL_ANPVS4","weapon",0.08},
+			{"Mk_48_DZ","weapon",0.02},
+			{"BAF_L85A2_RIS_CWS","weapon",0.005},
+			{"DMR","weapon",0.03},
+			{"", "military",0.3},
+			{"NVGoggles","weapon",0.005},
+			{"AmmoBoxSmall_556","object",0.08},
+			{"AmmoBoxSmall_762","object",0.08}
 		};
 	};
 	class Hospital: Default {
@@ -290,7 +315,7 @@ class CfgBuildingLoot {
 	class Military: Default {
 		zombieChance = 0.5;
 		maxRoaming = 6;
-		zombieClass[] = {"z_soldier","z_soldier_heavy","z_policeman","z_new_worker2","z_new_worker3","z_new_worker4"};
+		zombieClass[] = {"z_soldier","z_soldier_heavy"};
 		lootChance = 0.6;
 		lootPos[] = {};
 		lootType[] = {
@@ -317,49 +342,52 @@ class CfgBuildingLoot {
 			{"M4A3_CCO_EP1","weapon",0.7},
 			{"G36a","weapon",0.7},
 			{"glock17_EP1","weapon",0.7},
-		// 0.4 rate (rare) >>> 9 items
-			{"SCAR_H_CQC_CCO","weapon",0.4},
-			{"AK_107_GL_pso","weapon",0.4},
-			{"M4A1_HWS_GL_camo","weapon",0.4},
-			{"M16A4_ACG_GL","weapon",0.4},
-			{"M4A3_RCO_GL_EP1","weapon",0.4},
-			{"M24","weapon",0.4},
-			{"SVD","weapon",0.4},
-			{"M4SPR","weapon",0.4},
-			{"M9SD","weapon",0.4},
-		// 0.1 rate (ultra rare) >>> 9 items
-			{"SCAR_L_CQC_CCO_SD","weapon",0.1},
-			{"AKS_74_GOSHAWK","weapon",0.1},
-			{"M4A1_HWS_GL_SD_camo","weapon",0.1},
-			{"M40A3","weapon",0.1},
-			{"SVD_CAMO","weapon",0.1},
-			{"VSS_Vintorez","weapon",0.1},
-			{"UZI_EP1","weapon",0.1},
-			{"M249_DZ","weapon",0.1},
-			{"DZ_Backpack_EP1","object",0.1},
-		// 0.08 rate (legendary) >>> 8 items
-			{"SCAR_L_STD_EGLM_TWS","weapon",0.08},
-			{"BAF_AS50_scoped","weapon",0.08},
-			{"KSVK","weapon",0.08},
-			{"UZI_SD_EP1","weapon",0.08},
-			{"M240_DZ","weapon",0.08},
-			{"Skin_Camo1_DZ","magazine",0.08},
-			{"Skin_Sniper1_DZ","magazine",0.08},
-			{"ItemSandbag","magazine",0.08},
-		// 0.05 rate (holy shit) >>> 6 items
-			{"SCAR_H_STD_TWS_SD","weapon",0.05},
-			{"BAF_AS50_TWS","weapon",0.05},
-			{"M32_EP1","weapon",0.05},
-			{"M136","weapon",0.05},
-			{"PipeBomb","weapon",0.05},
-			{"M249_TWS_EP1_DZ","weapon",0.05}
+		// 0.3 rate (rare) >>> 10 items
+			{"SCAR_H_CQC_CCO","weapon",0.3},
+			{"AK_107_GL_pso","weapon",0.3},
+			{"M4A1_HWS_GL_camo","weapon",0.3},
+			{"M16A4_ACG_GL","weapon",0.3},
+			{"M4A3_RCO_GL_EP1","weapon",0.3},
+			{"M24","weapon",0.3},
+			{"SVD","weapon",0.3},
+			{"M4SPR","weapon",0.3},
+			{"M9SD","weapon",0.3},
+			{"ItemFlashlightRed","weapon",0.3},
+		// 0.08 rate (ultra rare) >>> 10 items
+			{"SCAR_L_CQC_CCO_SD","weapon",0.08},
+			{"AKS_74_GOSHAWK","weapon",0.08},
+			{"M4A1_HWS_GL_SD_camo","weapon",0.08},
+			{"M40A3","weapon",0.08},
+			{"SVD_CAMO","weapon",0.08},
+			{"VSS_Vintorez","weapon",0.08},
+			{"UZI_EP1","weapon",0.08},
+			{"M249_DZ","weapon",0.08},
+			{"DZ_Backpack_EP1","object",0.08},
+			{"Binocular_Vector","object",0.08},
+		// 0.02 rate (legendary) >>> 9 items
+			{"SCAR_L_STD_EGLM_TWS","weapon",0.02},
+			{"BAF_AS50_scoped","weapon",0.02},
+			{"KSVK","weapon",0.02},
+			{"UZI_SD_EP1","weapon",0.02},
+			{"M240_DZ","weapon",0.02},
+			{"Skin_Camo1_DZ","magazine",0.02},
+			{"Skin_Sniper1_DZ","magazine",0.02},
+			{"ItemSandbag","magazine",0.02},
+			{"ItemETool","magazine",0.02},
+		// 0.005 rate (holy shit) >>> 6 items
+			{"SCAR_H_STD_TWS_SD","weapon",0.005},
+			{"BAF_AS50_TWS","weapon",0.005},
+			{"M32_EP1","weapon",0.005},
+			{"M136","weapon",0.005},
+			{"PipeBomb","weapon",0.005},
+			{"M249_TWS_EP1_DZ","weapon",0.005}
 		};
 	};
 	class MilitarySpecial: Default {
 		zombieChance = 0.5;
 		minRoaming = 2;
 		maxRoaming = 6;
-		zombieClass[] = {"z_soldier_heavy","z_new_worker2","z_new_worker3","z_new_worker4"};
+		zombieClass[] = {"z_soldier","z_soldier_heavy"};
 		lootChance = 0.6;
 		lootPos[] = {};
 		lootType[] = {
@@ -386,42 +414,45 @@ class CfgBuildingLoot {
 			{"M4A3_CCO_EP1","weapon",0.7},
 			{"G36a","weapon",0.7},
 			{"glock17_EP1","weapon",0.7},
-		// 0.4 rate (rare) >>> 9 items
-			{"SCAR_H_CQC_CCO","weapon",0.4},
-			{"AK_107_GL_pso","weapon",0.4},
-			{"M4A1_HWS_GL_camo","weapon",0.4},
-			{"M16A4_ACG_GL","weapon",0.4},
-			{"M4A3_RCO_GL_EP1","weapon",0.4},
-			{"M24","weapon",0.4},
-			{"SVD","weapon",0.4},
-			{"M4SPR","weapon",0.4},
-			{"M9SD","weapon",0.4},
-		// 0.1 rate (ultra rare) >>> 9 items
-			{"SCAR_L_CQC_CCO_SD","weapon",0.1},
-			{"AKS_74_GOSHAWK","weapon",0.1},
-			{"M4A1_HWS_GL_SD_camo","weapon",0.1},
-			{"M40A3","weapon",0.1},
-			{"SVD_CAMO","weapon",0.1},
-			{"VSS_Vintorez","weapon",0.1},
-			{"UZI_EP1","weapon",0.1},
-			{"M249_DZ","weapon",0.1},
-			{"DZ_Backpack_EP1","object",0.1},
-		// 0.08 rate (legendary) >>> 7 items
-			{"SCAR_L_STD_EGLM_TWS","weapon",0.08},
-			{"BAF_AS50_scoped","weapon",0.08},
-			{"KSVK","weapon",0.08},
-			{"UZI_SD_EP1","weapon",0.08},
-			{"M240_DZ","weapon",0.08},
-			{"Skin_Camo1_DZ","magazine",0.08},
-			{"Skin_Sniper1_DZ","magazine",0.08},
-			{"ItemSandbag","magazine",0.08},
-		// 0.05 rate (holy shit) >>> 6 items
-			{"SCAR_H_STD_TWS_SD","weapon",0.05},
-			{"BAF_AS50_TWS","weapon",0.05},
-			{"M32_EP1","weapon",0.05},
-			{"M136","weapon",0.05},
-			{"PipeBomb","weapon",0.05},
-			{"M249_TWS_EP1_DZ","weapon",0.05}
+		// 0.3 rate (rare) >>> 10 items
+			{"SCAR_H_CQC_CCO","weapon",0.3},
+			{"AK_107_GL_pso","weapon",0.3},
+			{"M4A1_HWS_GL_camo","weapon",0.3},
+			{"M16A4_ACG_GL","weapon",0.3},
+			{"M4A3_RCO_GL_EP1","weapon",0.3},
+			{"M24","weapon",0.3},
+			{"SVD","weapon",0.3},
+			{"M4SPR","weapon",0.3},
+			{"M9SD","weapon",0.3},
+			{"ItemFlashlightRed","weapon",0.3},
+		// 0.08 rate (ultra rare) >>> 10 items
+			{"SCAR_L_CQC_CCO_SD","weapon",0.08},
+			{"AKS_74_GOSHAWK","weapon",0.08},
+			{"M4A1_HWS_GL_SD_camo","weapon",0.08},
+			{"M40A3","weapon",0.08},
+			{"SVD_CAMO","weapon",0.08},
+			{"VSS_Vintorez","weapon",0.08},
+			{"UZI_EP1","weapon",0.08},
+			{"M249_DZ","weapon",0.08},
+			{"DZ_Backpack_EP1","object",0.08},
+			{"Binocular_Vector","object",0.08},
+		// 0.02 rate (legendary) >>> 9 items
+			{"SCAR_L_STD_EGLM_TWS","weapon",0.02},
+			{"BAF_AS50_scoped","weapon",0.02},
+			{"KSVK","weapon",0.02},
+			{"UZI_SD_EP1","weapon",0.02},
+			{"M240_DZ","weapon",0.02},
+			{"Skin_Camo1_DZ","magazine",0.02},
+			{"Skin_Sniper1_DZ","magazine",0.02},
+			{"ItemSandbag","magazine",0.02},
+			{"ItemETool","magazine",0.02},
+		// 0.005 rate (holy shit) >>> 6 items
+			{"SCAR_H_STD_TWS_SD","weapon",0.005},
+			{"BAF_AS50_TWS","weapon",0.005},
+			{"M32_EP1","weapon",0.005},
+			{"M136","weapon",0.005},
+			{"PipeBomb","weapon",0.005},
+			{"M249_TWS_EP1_DZ","weapon",0.005}
 		};
 	};
 	class Hunting: Default {
